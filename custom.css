@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Amatic+SC:wght@700&family=Bebas+Neue&family=Cookie&family=Dancing+Script:wght@600&family=Fuggles&family=IBM+Plex+Sans+Condensed:wght@500&family=Kanit&family=Kaushan+Script&family=Lilita+One&family=Major+Mono+Display&family=Orbitron:wght@500&family=PT+Sans+Caption:wght@400;700&family=PT+Sans+Narrow&family=Permanent+Marker&family=Rajdhani:wght@400;500&family=Roboto&family=Roboto+Mono:wght@500&family=Rowdies:wght@300&family=Russo+One&family=Shadows+Into+Light&family=Source+Code+Pro&family=Tangerine:wght@700&family=Titan+One&family=Unbounded&family=Varela+Round&family=Yatra+One&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Varela Round";
+}
+#heading {
+  color: #6d214f;
+}
+#quesheading {
+  line-height: 2rem;
+  color: #273c75;
+}
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 50px;
+  align-items: center;
+  background-color: #7ed6df;
+  letter-spacing: 1px;
+}
+label {
+  color: #182c61;
+  font-size: 21px;
+}
+input[type="radio"] {
+  accent-color: #4834d4;
+  margin-right: 2px;
+}
+#quizbox {
+  width: 50%;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px black;
+  background-color: white;
+}
+.row {
+  margin: 1.5rem 1rem;
+  font-size: 18px;
+  font-size: 19px;
+  text-transform: capitalize;
+}
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.btn,
+.submitbtn,
+.ansbtn {
+  width: 50%;
+  padding: 8px;
+  border: none;
+  font-size: 21px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+.btn {
+  background-color: #f8a5c2;
+}
+.submitdiv {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-direction: column;
+  letter-spacing: 1px;
+}
+.submitbtn {
+  margin-top: 20px;
+  background-color: #0be881;
+}
+h1 {
+  color: #e84118;
+}
+.ansbtn {
+  margin-top: 20px;
+  width: 30%;
+  background-color: #33d9b2;
+}
+.ans-replay {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #quizbox{
+    width: 92vw;
+  }
+  .btn,
+.submitbtn,
+.ansbtn{
+  width: 100%;
+  font-size: 24px;
+}
+h1{
+  font-size: 25px;
+}
+}
